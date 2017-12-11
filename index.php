@@ -23,7 +23,7 @@ $sel = DB::getInstance()->prepare( '
 		id > ?
 	LIMIT 10
 ' );
-$sel->bind_param( 'ssi', $sarah, $id );
+$sel->bind_param( 'ssi', $gender, $sarah, $id );
 
 // or this way
 $sel = DB::getInstance()->prepare( '
