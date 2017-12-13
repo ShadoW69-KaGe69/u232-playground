@@ -1,3 +1,4 @@
+-- /* dummy data from http://www.mockaroo.com/ */
 create table users (
 	id INT,
 	first_name VARCHAR(50),
